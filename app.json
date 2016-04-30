@@ -1,0 +1,23 @@
+{
+  "name": "testlooping",
+  "scripts": {
+  },
+  "env": {
+    "APP_KEY": {
+      "required": true
+    }
+  },
+  "formation": {
+    "web": {
+      "quantity": 1
+    }
+  },
+  "addons": [
+
+  ],
+  "buildpacks": [
+    {
+      "url": "heroku/php"
+    }
+  ]
+}
